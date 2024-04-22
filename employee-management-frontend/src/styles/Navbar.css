@@ -1,0 +1,43 @@
+/* Navbar.css */
+
+/* Navbar container styling */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #46bf72;
+  color: #fff;
+}
+
+/* Navbar right side styling */
+.navbar-right ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+/* Navbar list item styling */
+.navbar-right ul li {
+  display: inline;
+  margin-right: 10px;
+}
+
+/* Navbar link/button styling */
+.navbar-right ul li a,
+.navbar-right ul li button {
+  color: #fff;
+  text-decoration: none;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  padding: 8px 12px;
+  border-radius: 5px;
+}
+
+/* Hover effect for links/buttons */
+.navbar-right ul li a:hover,
+.navbar-right ul li button:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+}

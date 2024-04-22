@@ -1,0 +1,75 @@
+/* ViewEmployees.css */
+
+/* Container styling */
+.view-employees-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Heading styling */
+.view-employees-heading {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+/* Error message styling */
+.view-employees-error {
+  color: red;
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+/* Table styling */
+.employee-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+/* Table header row styling */
+.employee-table th {
+  background-color: #b2da5a;
+  color: #fff;
+  padding: 10px;
+  text-align: left;
+}
+
+/* Table body row styling */
+.employee-row {
+  border-bottom: 1px solid #ccc;
+}
+
+/* Table cell styling */
+.employee-row td {
+  padding: 10px;
+}
+
+/* Edit button styling */
+.employee-row button {
+  margin-right: 5px;
+  padding: 5px 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Delete button styling */
+.employee-row button.delete {
+  background-color: #dc3545;
+}
+
+/* Input field styling */
+.employee-row input[type="text"],
+.employee-row input[type="number"] {
+  width: 100%;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+/* Save and Cancel button styling */
+.employee-row div {
+  margin-top: 5px;
+}

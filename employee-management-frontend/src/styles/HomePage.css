@@ -1,0 +1,74 @@
+/* HomePage.css */
+
+/* Container styling */
+.home-page-container {
+  width: 100%;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+/* Logged in message styling */
+.logged-in-message {
+  margin-bottom: 20px;
+}
+
+.logged-in-message h2 {
+  font-size: 24px;
+  color: #ff6347; /* Tomato color */
+}
+
+/* Welcome message styling */
+.welcome-message {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.welcome-message h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.feature-message {
+  font-size: 16px;
+  color: #008000; /* Green color */
+}
+
+/* Button box styling */
+.button-box {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.button-box button {
+  margin-right: 10px;
+  padding: 10px 20px;
+  background-color: #30437c; /* Royal Blue color */
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Alert message styling */
+.alert-message {
+  background-color: #ffffe0; /* Light Yellow color */
+  border: 1px solid #f0e68c; /* Khaki color */
+  color: #8b4513; /* Saddle Brown color */
+  padding: 10px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+.alert-message p {
+  margin: 0;
+}
+
+.alert-message button {
+  background-color: #ffd700; /* Gold color */
+  border: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 5px;
+}
